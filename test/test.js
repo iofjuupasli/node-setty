@@ -37,5 +37,14 @@ describe('Setty', function() {
     });
 
     assert.equal(setty.get('connection'), "Andrew's connection");
+    process.env['SETTY_PROFILE1'] = undefined;
+  });
+
+  it('should use only defaults if profile not specified', function (){
+    setty.load({
+        settingsDir: path.join(__dirname, 'settings'),
+        profile: '.not-exists'
+    });
+    assert.equal(setty.get('connection'), 'Default');
   });
 });
