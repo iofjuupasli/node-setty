@@ -1,6 +1,6 @@
 {
   "name": "setty",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Configs management application",
   "main": "lib/index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/anorsich/node-setty",
   "dependencies": {
-    "nconf": "^0.7.1",
-    "underscore": "^1.7.0"
+    "depd": "^1.1.0",
+    "nconf": "^0.7.1"
   },
   "devDependencies": {
     "mocha": "^2.1.0"
