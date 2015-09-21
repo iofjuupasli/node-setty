@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/iofjuupasli/node-setty.svg?branch=master)](https://travis-ci.org/iofjuupasli/node-setty)
 [![Coverage Status](https://img.shields.io/coveralls/iofjuupasli/node-setty.svg)](https://coveralls.io/r/iofjuupasli/node-setty?branch=master)
+[![Code Climate](https://codeclimate.com/github/iofjuupasli/node-setty/badges/gpa.svg)](https://codeclimate.com/github/iofjuupasli/node-setty)
 
 Key/value configuration management
 ---
