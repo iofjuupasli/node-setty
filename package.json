@@ -24,7 +24,7 @@
   "homepage": "https://github.com/anorsich/node-setty",
   "dependencies": {
     "depd": "^1.1.0",
-    "nconf": "^0.7.1"
+    "nconf": "^0.8.0"
   },
   "devDependencies": {
     "mocha": "^2.1.0"
