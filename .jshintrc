@@ -1,0 +1,6 @@
+{
+    "latedef": true,
+    "undef": true,
+    "unused": "vars",
+    "node": true
+}

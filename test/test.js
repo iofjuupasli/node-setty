@@ -1,3 +1,4 @@
+/*jshint mocha:true*/
 var assert = require('assert');
 var setty = require('..');
 var path = require('path');
