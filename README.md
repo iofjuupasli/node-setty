@@ -11,13 +11,13 @@ Depends on [nconf](https://github.com/flatiron/nconf).
 ## Installation
 
 Installing the module
-```
+```sh
 npm install setty --save-dev
 ```
 
 ## Usage exampple:
 
-```
+```js
 var setty = require('setty');
 var path = require('path');
 
@@ -60,6 +60,6 @@ settings
 
 ## Running tests
 
-```
+```sh
 npm test
 ```
