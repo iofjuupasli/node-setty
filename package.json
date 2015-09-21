@@ -4,7 +4,7 @@
   "description": "Configs management application",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test/test"
+    "test": "istanbul test _mocha"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,9 @@
     "nconf": "^0.8.0"
   },
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.1.0",
+    "mocha-lcov-reporter": "0.0.2"
   }
 }
